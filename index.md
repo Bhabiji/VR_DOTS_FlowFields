@@ -1,12 +1,14 @@
-## Welcome to GitHub Pages
+## Unity DOTS/ECS implementation to Flowfields
 
-You can use the [editor on GitHub](https://github.com/Bhabiji/VR_DOTS_FlowFields/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+A complex performant way for a relatively simple topic
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Starting with the basics to learn a necessary workflow for the future of Unity
 
-### Markdown
+### Summary
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Unity has always been compared to the more indie side of game development, even in school Unity is advised over an Unreal Engine 4 C++ implementation.
+While there are many reasons for the preference of Unreal Engine in the AAA-industry ( overall graphical fidelity, more customisability, Engine and scripting is done in C++... ), one of the reasons is that when Unreal Engine 4 is utilized by knowledgeable developers, performance can be highly improved through object management.
+Because of it's C# scripting language, Unity has a less upper hand on the side of object control yet they are developing ways to improve object management by redesigning core elements of Unity, introducing DOTS (Data-Oriented Technology Stack). While DOTS still has many flaws and adds much boilerplating to the traditional way of the Unity scripting workflow, it is definitely a must for future development. To elaborate on the DOTS workflow, a basic flowfield pathfinding (using many "agents" or "entities" to show the use of DOTS) will be implemented following this workflow and analysed thoroughly. 
 
 ```markdown
 Syntax highlighted code block
